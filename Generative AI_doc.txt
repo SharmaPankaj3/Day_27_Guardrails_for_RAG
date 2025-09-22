@@ -1,0 +1,50 @@
+### Generative AI
+Generative AI refers to artificial intelligence models that can generate new content such as text, images, audio, or code. These models learn patterns from large datasets and use that knowledge to create original outputs.
+
+### Large Language Models (LLMs)
+Large Language Models are AI models trained on massive amounts of text data. They use architectures like Transformers to understand and generate human-like text. Popular LLMs include GPT, LLaMA, and PaLM.
+
+### Transformer Architecture
+The Transformer is a deep learning architecture based on the attention mechanism. It consists of an encoder and decoder, using self-attention to process sequences in parallel rather than step by step. This design enables efficient training on very large datasets.
+
+### Embeddings
+Embeddings are numerical vector representations of text, images, or other data. In NLP, embeddings map words or sentences into high-dimensional space where semantically similar items are closer together. Popular embedding models include Word2Vec, BERT embeddings, and OpenAI’s text-embedding models.
+
+### Retrieval-Augmented Generation (RAG)
+RAG combines a retriever with a generator. The retriever fetches relevant documents from a knowledge base, and the generator uses those documents to provide a grounded answer. This approach reduces hallucination and improves factual accuracy.
+
+### Prompt Engineering
+Prompt engineering involves designing the right input instructions for LLMs to generate desired outputs. Techniques include zero-shot prompting, few-shot prompting, and chain-of-thought prompting.
+
+### Guardrails in AI
+Guardrails are safety mechanisms to ensure that AI systems behave as expected. They include input filtering, response validation, context checking, and preventing unsafe or harmful outputs.
+
+### Applications of Generative AI
+Generative AI is used in chatbots, code assistants, creative writing, drug discovery, and image generation. Companies use it to improve productivity, automate content creation, and assist decision-making.
+
+### Challenges of Generative AI
+Challenges include hallucinations (making up facts), bias in training data, high compute cost, and ensuring safe and ethical use of AI systems. Evaluation methods and guardrails are essential to address these issues.
+
+### Cloud Platforms for GenAI
+GenAI models can be deployed on cloud services like AWS, GCP, and Azure. These platforms provide GPUs/TPUs for training, APIs for serving models, and tools for scaling applications.
+
+### Fine-Tuning LLMs
+Fine-tuning means adapting a pre-trained LLM to a specific task or domain by training it further on domain-specific data. It improves accuracy but requires careful handling to avoid overfitting.
+
+### Reinforcement Learning with Human Feedback (RLHF)
+RLHF is a technique to align LLMs with human preferences. It involves training a reward model from human feedback and optimizing the LLM using reinforcement learning to maximize that reward.
+
+### Future of Generative AI
+The future of Generative AI involves more efficient models (smaller yet powerful), improved interpretability, multimodal systems (handling text, images, audio together), and better alignment with human values.
+
+### Retrieval-Augmented Generation (RAG) and Hallucination
+RAG helps reduce hallucination by grounding language model outputs in external knowledge sources. Instead of relying only on its internal parameters, the model retrieves relevant passages from a knowledge base. These passages act as supporting evidence, so the generated answers are more accurate and trustworthy. The quality of embeddings and the retriever significantly affects RAG performance.
+
+### Guardrails in AI Systems
+Guardrails are safety mechanisms that prevent models from generating harmful or irrelevant outputs. They can include blocklists for unsafe keywords, toxicity filters, similarity thresholds, and refusal policies. Guardrails are crucial for deploying AI in real-world applications where safety and trust are important.
+
+### Applications of Embeddings
+Beyond natural language, embeddings are also used in recommendation systems, anomaly detection, image search, and bioinformatics. By representing complex objects as vectors in high-dimensional space, embeddings enable efficient similarity search across many domains.
+
+
+
